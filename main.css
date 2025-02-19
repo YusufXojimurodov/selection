@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: #101220;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+}
+
+.header-h1 {
+    font-size: 24px;
+    color: white;
+}
+
+select {
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+option {
+    background-color:  #232028;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 0px 11px 0px #FFFFFF;
+}
+
+.header-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.register{
+    padding: 9px 40px;
+    color: white;
+    background: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.sign{
+    padding: 9px 66px;
+    color: white;
+    background: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.register:hover{
+    background-color: #BFAFF2;
+    color: #333333;
+    transition: 450ms ease;
+    transform: scale(1.1);
+    border: none;
+}
+
+.sign:hover{
+    background-color: #BFAFF2;
+    border: none;
+    color: #333333;
+    transition: 450ms ease;
+    transform: scale(1.1);
+}
+
+
+.all-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 161px;
+}
+
+.text-parent{
+    padding: 16px 22px;
+    width: 325px;
+    background-color: #232028;
+    border-radius: 32px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.text-parent:hover{
+    transform: scale(1.1);
+    transition: 450ms ease;
+}
+
+.personal-info{
+    background-color: #232028;
+}
+
+
+.personal-name{
+    background-color: #232028;
+    font-size: 32px;
+}
+
+.anime{
+    animation-name: anime;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+@keyframes anime{
+    0%{
+        transform: translateY(0px);
+    }
+
+   25%{
+    transform: translateY(25px);
+   }
+
+   50%{
+    transform: translateY(-25px);
+   }
+
+   75%{
+    transform: translateY(25px);
+   }
+
+   100%{
+    transform: translateY(-25px);
+   }
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 125px;
+    padding: 20px 40px;
+}
+
+.footer-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-a{
+    color: white;
+    font-size: 16px;
+}
+
+.footer-p{
+    color: white;
+    font-size: 16px;
+}
+
